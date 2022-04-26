@@ -635,7 +635,7 @@ jobs:
     container: i386/debian:buster
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
 
     - name: Install requirements
       run: |
